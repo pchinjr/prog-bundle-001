@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "sandbox",
+    "debug": "DEBUG=debug sandbox",
+    "test": "NODE_ENV=testing tape test/*-test.js | tap-spec"
+  },
+  "dependencies": {
+    "@architect/sandbox": "latest",
+    "@begin/data": "latest",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.0.1"
+  },
+  "version": "0.0.1"
+}
